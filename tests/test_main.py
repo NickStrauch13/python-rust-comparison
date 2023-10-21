@@ -1,7 +1,13 @@
-from src.main import func
+'''
+Test the main function
+'''
+from src.sort import python_sort
 
 
-def test_func():
-    assert func(3) == 4
-    assert func(4) == 5
-    assert func(-1) == 0
+def test_python_sort():
+    '''
+    Test the python_sort function
+    '''
+    data = [3, 2, 1]
+    sorted_data = python_sort(data)
+    assert sorted_data == [1, 2, 3]
