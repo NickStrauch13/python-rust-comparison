@@ -31,10 +31,10 @@ Overall, Rust led to a substantial improvement in performance and resource usage
 
 Run Rust:
 
-![Alt text](rust_output.png)
+![Alt text](img/rust_output.png)
 
 Run Python:
 
-![Alt text](python_process_csv.png)
+![Alt text](img/python_process_csv.png)
 
-![Alt text](python_sort.png)
+![Alt text](img/python_sort.png)
